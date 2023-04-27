@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+    /*Pergunte ao usuário o preço da garrafa de refrigerante. Considere que o mercado está fazendo uma campanha e, ao comprar duas garrafas, serão dados 10% de desconto em cada garrafa. Ao comprar 3 garrafas, serão dados 15% de desconto em cada garrafa.
+
+Calcule e apresente, ao final do programa:
+
+Preço para compra de uma garrafa
+Preço para compra de duas garrafas
+Preço para compra de três garrafas*/
+
+const valorGarrafa = prompt ("Qual é o preço da garrafa de refrigerante?")
+
+/*Porcentagem = (valor obtido x 100) / Valor total*/
+
+const valorDuas =  (valorGarrafa * 2) * 10/100 
+const totalDuas =  (valorGarrafa * 2) - valorDuas
+const valorTres =  (valorGarrafa * 3) * 15/100
+const totalTres =  (valorGarrafa * 3) - valorTres
+
+alert (`Preço para compra de uma garrafa o valor será de R$ ${valorGarrafa} , na compra de duas garrafas será de R$ ${totalDuas}, e na compra de três garrafas será de R$ ${totalTres} .`)
+</script>

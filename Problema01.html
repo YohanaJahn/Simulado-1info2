@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<script>
+    /*Faça um programa que pergunte o preço do litro da bebida. Também pergunte ao usuário qual foi a quantidade de bebida consumida.
+
+Apresente, ao final do programa, qual é o custo total da bebida consumida.*/
+
+const precoLitro = prompt ("Qual era o preço da Bedida que o senhor consumiu?")
+const quantidadeLitro = prompt ("Quantos litros o senhor consumiu?")
+
+const total = precoLitro * quantidadeLitro
+
+alert (`O custo do consumo ficou em R$ ${total.toFixed(2).replace(".", ",")}.`)
+
+</script>
